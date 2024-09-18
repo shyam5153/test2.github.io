@@ -1,0 +1,115 @@
+<DOCTYPE html></DOCTYPE>
+    <html lang="en">
+        <CENTER><head>ENQUIRY FORM</head></CENTER>
+        <form><div class="form 1">
+           <p>Name<span>*</span>:<input type="text"></p>
+            <p>Email<span>*</span>:<input type="email"></p>
+            <p>Course<span>*</span>:<select>
+                <option>FullStack</option>
+            <option>FrontEnd</option>
+        <option>BackEnd</option>
+        <option>AWS</option>
+        </select></p>
+        <p>Preffered loction: <select>
+            <option>Anna Nagar</option>
+            <option>Besant Nagar</option>
+            <option>Porur</option>
+            <option>OMR</option>
+        </select></p>
+        Current Location: <input type="text"><br>
+        <input type="checkbox"><label>Subscribe to NewsLetter</label>
+        <input type="submit">
+    </div>
+    </form1>
+    <hr>
+        <center>
+<head>VALIDATION FORM</head>
+</center>
+    <form><div class="form2">
+            <label for="name" class="required">
+                Name
+            </label>
+            <input type="text" name="name" required><br><br>
+            <label class="required">DOB</label>
+            <input type="date" required><br><br>
+            <label class="required">Email</label>
+            <input type="email" required><br><br>
+            <label class="required">Mobile Number</label>
+            <input type="number" required><br><br>
+            <label class="notrequired">City</label><input type="text"><br><br>
+            <p><input type="checkbox">agree terms and conditions</p><br>
+            <input type="submit">
+            </div>
+    </form>
+    <hr>
+</html>
+    
+<style>
+        span{
+    color:red
+}
+
+</style>
+
+
+    <style>
+      .form1 select{
+            box-shadow: 5px 5px 5px;
+        }
+    </style>
+
+    <style>
+      .form1 option:nth-child(odd){
+        color:red
+        }
+      option:nth-child(even){
+        color: blue;
+        }
+    </style>
+
+<style>
+   .form1 p::first-letter{
+        font-weight:bolder;
+    }
+</style>
+
+<style>
+   .form1 label{
+    color: red;
+    }
+</style>
+
+
+    
+<style>
+.form2 .required::after {
+    content: "*";
+    color:blue;
+}
+
+</style>
+
+<style>
+    .form2 input[required]:focus{
+    border-radius:10px ;
+    padding:10px;
+    color: blue;
+    border: 3px;
+    }
+</style>
+
+
+<style>
+    .form2 .required:hover{
+    color: green;
+    font-weight:bolder;
+    }
+</style>
+
+
+<style>
+    .form2 .notrequired:hover{
+        color: yellow;
+        font-weight: bolder;
+    } 
+</style>
